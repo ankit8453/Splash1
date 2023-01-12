@@ -1,0 +1,80 @@
+#back{
+    color: white;
+    background-color: rgb(244, 241, 247);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+#ap{
+    background-color: rgba(87,45,206,255);
+    height: 95vh;
+    width: 350px;
+    border-radius: 10px;
+    padding:10px 20px;
+    padding-left: 30px;
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+#inner{
+    background-color: rgba(114,79,214,255) ;
+    padding: 20px 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    
+}
+.from{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+input{
+    background-color: rgba(149,123,224,255);
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    border: none;
+}
+#course-field{
+    background-color: rgba(149,123,224,255);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: none;
+    font-size: large;
+    font-weight: 300;
+}
+button{
+    color: rgb(106, 5, 249);
+    background-color: rgba(255,209,91,255);
+    border-radius: 3px;
+    padding: 15px;
+    border: none;
+    margin-top: 20px;
+    font-size:large;
+    font-weight: 600;
+}
+.line {
+    margin: 5px 70px;
+    height: 1.5px;
+    background: repeating-linear-gradient(
+      to right,
+      transparent,
+      transparent 10px,
+      white 10px,
+      white 20px
+    );
+  }
+  .heading{
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+  }
