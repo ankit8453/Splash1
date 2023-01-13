@@ -50,6 +50,7 @@ input{
     border: none;
     font-size: large;
     font-weight: 300;
+    cursor: pointer;
 }
 button{
     color: rgb(106, 5, 249);
@@ -60,6 +61,7 @@ button{
     margin-top: 20px;
     font-size:large;
     font-weight: 600;
+    cursor: pointer;
 }
 .line {
     margin: 5px 70px;
